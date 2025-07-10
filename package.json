@@ -1,0 +1,22 @@
+{
+  "name": "cuisine-tests-jest",
+  "version": "1.0.0",
+  "description": "Projet d'apprentissage des tests Jest avec métaphore culinaire",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:stubs": "jest stubs",
+    "test:mocks": "jest mocks",
+    "test:spies": "jest spies",
+    "test:snapshots": "jest snapshots",
+    "test:fakes": "jest fakes"
+  },
+  "keywords": ["jest", "tests", "apprentissage", "mocks", "stubs"],
+  "author": "Étudiant",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
